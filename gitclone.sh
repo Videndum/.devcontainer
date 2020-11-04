@@ -2,7 +2,7 @@
 
 # Clone the repositories
 
-git clone https://github.com/Videndum/Smartcloud.git smartcloud
-git clone https://github.com/Videndum/Universal-GitAction-Workflows.git github-actions
-git clone https://github.com/Videndum/manage-github-secrets.git github-secrets
-git clone https://github.com/Videndum/super-labeler-action.git super-labeler-action
+git clone https://github.com/Videndum/Smartcloud.git projects/smartcloud
+git clone https://github.com/Videndum/Universal-GitAction-Workflows.git projects/github-actions
+git clone https://github.com/Videndum/manage-github-secrets.git projects/github-secrets
+git clone https://github.com/Videndum/super-labeler-action.git projects/super-labeler-action

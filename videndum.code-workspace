@@ -2,51 +2,51 @@
   "folders": [
     {
       "name": "🧱 @videndum/smartcloud",
-      "path": "./smartcloud"
+      "path": "./projects/smartcloud"
     },
     {
       "name": "📦 @videndum/smartcloudJS",
-      "path": "./smartcloud/packages/frameworks/js"
+      "path": "./projects/smartcloud/packages/frameworks/js"
     },
     {
       "name": "📦 @videndum/smartcloudCLI",
-      "path": "./smartcloud/packages/apps/cli"
+      "path": "./projects/smartcloud/packages/apps/cli"
     },
     {
       "name": "📦 @videndum/smartcloud-discord",
-      "path": "./smartcloud/packages/containers/discord"
+      "path": "./projects/smartcloud/packages/containers/discord"
     },
     {
       "name": "📦 @videndum/smartcloud-components",
-      "path": "./smartcloud/packages/frontend/components"
+      "path": "./projects/smartcloud/packages/frontend/components"
     },
     {
       "name": "🚀 @videndum/smartcloud-webfront",
-      "path": "./smartcloud/packages/frontend/webfront"
+      "path": "./projects/smartcloud/packages/frontend/webfront"
     },
     {
       "name": "🚀 @videndum/smartcloud-console",
-      "path": "./smartcloud/packages/frontend/console"
+      "path": "./projects/smartcloud/packages/frontend/console"
     },
     {
       "name": "📕 @videndum/smartcloud-webdocs",
-      "path": "./smartcloud/packages/frontend/docs"
+      "path": "./projects/smartcloud/packages/frontend/docs"
     },
     {
       "name": "⚙️ @videndum/smartcloud-login",
-      "path": "./smartcloud/packages/serverless/login"
+      "path": "./projects/smartcloud/packages/serverless/login"
     },
     {
       "name": "⚙️ @videndum/github-actions",
-      "path": "./github-actions"
+      "path": "./projects/github-actions"
     },
     {
       "name": "⚙️ @videndum/github-secrets",
-      "path": "./github-secrets"
+      "path": "./projects/github-secrets"
     },
     {
       "name": "🦸‍♂️ @Videndum/super-labeler-action",
-      "path": "./super-labeler-action"
+      "path": "./projects/super-labeler-action"
     },
     {
       "name": "🌱 @Videndum/.devcontainer",
