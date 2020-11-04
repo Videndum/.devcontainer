@@ -13,7 +13,7 @@
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-  "shutdownAction": "none",
+  "shutdownAction": "stopContainer",
   "mounts": [
     "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind",
     "source=${env:HOME}${env:USERPROFILE}/.kube,target=/usr/local/share/kube-localhost,type=bind",
