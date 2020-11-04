@@ -1,0 +1,101 @@
+{
+  "folders": [
+    {
+      "name": "🧱 @videndum/smartcloud",
+      "path": "./smartcloud"
+    },
+    {
+      "name": "📦 @videndum/smartcloudJS",
+      "path": "./smartcloud/packages/frameworks/js"
+    },
+    {
+      "name": "📦 @videndum/smartcloudCLI",
+      "path": "./smartcloud/packages/apps/cli"
+    },
+    {
+      "name": "📦 @videndum/smartcloud-discord",
+      "path": "./smartcloud/packages/containers/discord"
+    },
+    {
+      "name": "📦 @videndum/smartcloud-components",
+      "path": "./smartcloud/packages/frontend/components"
+    },
+    {
+      "name": "🚀 @videndum/smartcloud-webfront",
+      "path": "./smartcloud/packages/frontend/webfront"
+    },
+    {
+      "name": "🚀 @videndum/smartcloud-console",
+      "path": "./smartcloud/packages/frontend/console"
+    },
+    {
+      "name": "📕 @videndum/smartcloud-webdocs",
+      "path": "./smartcloud/packages/frontend/docs"
+    },
+    {
+      "name": "⚙️ @videndum/smartcloud-login",
+      "path": "./smartcloud/packages/serverless/login"
+    },
+    {
+      "name": "⚙️ @videndum/github-actions",
+      "path": "./github-actions"
+    },
+    {
+      "name": "⚙️ @videndum/github-secrets",
+      "path": "./github-secrets"
+    },
+    {
+      "name": "🦸‍♂️ @Videndum/super-labeler-action",
+      "path": "./super-labeler-action"
+    },
+    {
+      "name": "🌱 @Videndum/.devcontainer",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "peacock.color": "#1857a4",
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#1f6fd0",
+      "activityBar.activeBorder": "#ee90bb",
+      "activityBar.background": "#1f6fd0",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "statusBar.background": "#1857a4",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#1f6fd0",
+      "titleBar.activeBackground": "#1857a4",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveBackground": "#1857a499",
+      "titleBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.background": "#ee90bb",
+      "activityBarBadge.foreground": "#15202b"
+    },
+    "peacock.remoteColor": "#1857a4",
+    "discord.enabled": true
+  },
+  "extensions": {
+    "recommendations": [
+      "aaron-bond.better-comments",
+      "bierner.emojisense",
+      "bierner.github-markdown-preview",
+      "codestream.codestream",
+      "coenraads.bracket-pair-colorizer-2",
+      "davidanson.vscode-markdownlint",
+      "eamodio.gitlens",
+      "johnpapa.vscode-peacock",
+      "johnstoncode.svn-scm",
+      "karigari.chat",
+      "leizongmin.node-module-intellisense",
+      "ms-vsliveshare.vsliveshare",
+      "redhat.vscode-yaml",
+      "ritwickdey.liveserver",
+      "silvenon.mdx",
+      "tabnine.tabnine-vscode",
+      "visualstudioexptteam.vscodeintellicode",
+      "vsls-contrib.gistfs",
+      "vsls-contrib.gitdoc",
+      "yzhang.markdown-all-in-one"
+    ]
+  }
+}

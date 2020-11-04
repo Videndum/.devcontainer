@@ -1,0 +1,65 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/master/containers/typescript-node
+{
+  "name": "Node Projects",
+  "build": {
+    "dockerfile": "Dockerfile",
+    // Update 'VARIANT' to pick a Node version. Rebuild the container if it already exists to update. Available variants: 10, 12, 14
+    "args": {
+      "VARIANT": "14"
+    }
+  },
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "shutdownAction": "none",
+  "mounts": [
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind",
+    "source=${env:HOME}${env:USERPROFILE}/.kube,target=/usr/local/share/kube-localhost,type=bind",
+    "source=${env:HOME}${env:USERPROFILE}/.minikube,target=/usr/local/share/minikube-localhost,type=bind",
+    "source=${env:HOME}${env:USERPROFILE}/gpg,target=/root/gpg,type=bind"
+  ],
+  "remoteEnv": {
+    "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}",
+    "SYNC_LOCALHOST_KUBECONFIG": "true"
+  },
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": [
+    // extensions to install
+    "codestream.codestream",
+    "ms-azuretools.vscode-docker",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "numso.prettier-standard-vscode",
+    "vsls-contrib.codetour",
+    "waderyan.nodejs-extension-pack",
+    // what i recommend for plugins
+    "aaron-bond.better-comments",
+    "bierner.emojisense",
+    "bierner.github-markdown-preview",
+    "codestream.codestream",
+    "coenraads.bracket-pair-colorizer-2",
+    "davidanson.vscode-markdownlint",
+    "eamodio.gitlens",
+    "johnpapa.vscode-peacock",
+    "johnstoncode.svn-scm",
+    "karigari.chat",
+    "leizongmin.node-module-intellisense",
+    "ms-vsliveshare.vsliveshare",
+    "redhat.vscode-yaml",
+    "ritwickdey.liveserver",
+    "silvenon.mdx",
+    "tabnine.tabnine-vscode",
+    "visualstudioexptteam.vscodeintellicode",
+    "vsls-contrib.gistfs",
+    "vsls-contrib.gitdoc",
+    "yzhang.markdown-all-in-one",
+    "prisma.vscode-graphql"
+  ],
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [3000],
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": "chmod 755 gitclone.sh && ./gitclone.sh"
+  // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+  // "remoteUser": "node"
+}
