@@ -11,7 +11,9 @@ This method is the best way for every developer to be running the exact same wor
 For us to continue, you are going to need a couple of tools:
 
 Windows: [Docker Desktop](https://www.docker.com/products/docker-desktop) 2.0+ on Windows 10 Pro/Enterprise. Windows 10 Home (2004+) requires Docker Desktop 2.3+ and the [WSL 2 back-end](https://aka.ms/vscode-remote/containers/docker-wsl2). (Docker Toolbox is not supported. Windows container images are not supported.)
+
 macOS: [Docker Desktop](https://www.docker.com/products/docker-desktop) 2.0+.
+
 Linux: [Docker CE/EE](https://docs.docker.com/install/#supported-platforms) 18.06+ and [Docker Compose](https://docs.docker.com/compose/install) 1.21+. (The Ubuntu snap package is not supported.)
 
 ## Installation
@@ -45,10 +47,20 @@ To get started, follow these steps:
 
 We have included the documentation folder within this repository. You can find the following information which will guide you through how to contribute to our projects
 
-[Contributing Guidelines](./.devdocs/getting-started/contributing/contributing.md#why-the-guidelines)
-[Responsiblities](./.devdocs/getting-started/contributing/contributing.md#responsibilities)
-[External Contributions Workflow](./.devdocs/getting-started/contributing/contributing.md#external-contributions-workflow)
-[Internal Contributions Workflow](./.devdocs/getting-started/contributing/contributing.md#internal-contributions-workflow)
-[Contribution Types](./.devdocs/getting-started/contributing/contributing.md#contribution-types)
-[Creating a merge request](./.devdocs/getting-started/contributing/contributing.md#creating-a-merge-request)
-[Understanding Labels](./.devdocs/getting-started/contributing/contributing.md#understanding-labels)
+- [Contributing Guidelines](./.devdocs/getting-started/contributing/contributing.md#why-the-guidelines)
+- [Responsiblities](./.devdocs/getting-started/contributing/contributing.md#responsibilities)
+- [External Contributions Workflow](./.devdocs/getting-started/contributing/contributing.md#external-contributions-workflow)
+- [Internal Contributions Workflow](./.devdocs/getting-started/contributing/contributing.md#internal-contributions-workflow)
+- [Contribution Types](./.devdocs/getting-started/contributing/contributing.md#contribution-types)
+- [Creating a merge request](./.devdocs/getting-started/contributing/contributing.md#creating-a-merge-request)
+- [Understanding Labels](./.devdocs/getting-started/contributing/contributing.md#understanding-labels)
+
+## Adding a new project
+
+If you are lucky enough to have the power to add new projects to this developer space, here is the steps you need to take.
+
+1. Create your repository
+2. Ensure your repository has a `.devcontainer` setup
+3. Add your repository to the `gitclone.sh` file
+4. Add your repository to the `.code-workspace` file
+5. Commit and push this repository
