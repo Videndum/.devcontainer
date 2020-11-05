@@ -32,16 +32,6 @@ RUN apt-get install -y ruby ruby-dev rubygems build-essential openssl bash && ge
     && mkdir ~/Applications && cd ~/Applications \
     && git clone https://github.com/StackExchange/blackbox.git && cd blackbox \
     && make symlinks-install
-#
-# Import GPG keys
-#
-# Powershell command: 
-# $gpgoutput = Split-Path $env:userprofile -Leaf; mkdir $env:userprofile/gpg; gpg --output "$env:userprofile/gpg/$gpgoutput.gpg" --export
-#
-# cmd command:
-# mkdir "%HOMEPATH%/gpg" && gpg --output "%HOMEPATH%/gpg/%username%.gpg" --export
-# && path=${env:USERPROFILE} \
-# && gpg --import ~/gpg/${path#/*}.gpg
 
 # [Optional] Uncomment if you want to  copy localhost's ~/.kube/config file into the container and swap out localhost for host.docker.internal on bash/zsh start to keep them in sync.
 # COPY copy-kube-config.sh /usr/local/share/
