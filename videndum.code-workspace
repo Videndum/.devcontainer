@@ -37,6 +37,10 @@
       "path": "./projects/smartcloud/packages/serverless/login"
     },
     {
+      "name": "⚙️ @videndum/logging",
+      "path": "Videndum/projects/logging"
+    },
+    {
       "name": "⚙️ @videndum/github-actions",
       "path": "./projects/github-actions"
     },
@@ -45,7 +49,11 @@
       "path": "./projects/github-secrets"
     },
     {
-      "name": "🦸‍♂️ @Videndum/super-labeler-action",
+      "name": "⚙️ @Videndum/Convential-PR-Releases",
+      "path": "./projects/Convential-PR-Releases"
+    },
+    {
+      "name": "🦸‍♂️ @Videndum/label-mastermind",
       "path": "./projects/super-labeler-action"
     },
     {
@@ -76,26 +84,28 @@
   },
   "extensions": {
     "recommendations": [
+      "adobe.xd",
       "aaron-bond.better-comments",
-      "bierner.emojisense",
-      "bierner.github-markdown-preview",
-      "codestream.codestream",
       "coenraads.bracket-pair-colorizer-2",
-      "davidanson.vscode-markdownlint",
+      "vsls-contrib.codetour",
+      "icrawl.discord-vscode",
+      "ms-azuretools.vscode-docker",
+      "bierner.github-markdown-preview",
       "eamodio.gitlens",
-      "johnpapa.vscode-peacock",
-      "johnstoncode.svn-scm",
-      "karigari.chat",
+      "hashicorp.terraform",
+      "wholroyd.hcl",
+      "yzhang.markdown-all-in-one",
+      "davidanson.vscode-markdownlint",
+      "pkief.material-icon-theme",
+      "softwaredotcom.music-time",
       "leizongmin.node-module-intellisense",
-      "ms-vsliveshare.vsliveshare",
+      "johnpapa.vscode-peacock",
+      "platformio.platformio-ide",
+      "ms-vscode-remote.remote-containers",
+      "ms-vscode-remote.remote-ssh",
+      "ms-vscode-remote.vscode-remote-extensionpack",
       "redhat.vscode-yaml",
-      "ritwickdey.liveserver",
-      "silvenon.mdx",
-      "tabnine.tabnine-vscode",
-      "visualstudioexptteam.vscodeintellicode",
-      "vsls-contrib.gistfs",
-      "vsls-contrib.gitdoc",
-      "yzhang.markdown-all-in-one"
+      "visualstudioexptteam.vscodeintellicode"
     ]
   }
 }
